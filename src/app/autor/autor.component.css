@@ -1,0 +1,73 @@
+/* Estilo para o container principal */
+div {
+  border-radius: 10px;  
+  background-color: aqua;  
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para o título */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilo para o formulário */
+div input {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+div button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para a lista de autores */
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol li {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ol li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+ol li button:hover {
+  background-color: #c82333;
+}
+
+
+
+
+  

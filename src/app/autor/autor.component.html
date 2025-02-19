@@ -1,0 +1,20 @@
+<div>
+  <h1>Gerenciamento de Autores</h1>
+
+  <!-- Formulário para adicionar um novo autor -->
+  <div>
+    <input [(ngModel)]="novoAutor.nomeAutor" placeholder="Nome do Autor"> <!-- Vinculando ao nomeAutor -->
+    <input [(ngModel)]="novoAutor.sobrenomeAutor" placeholder="Sobrenome do Autor"> <!-- Vinculando ao sobrenomeAutor -->
+    <button (click)="criarAutor()">Adicionar Autor</button>
+  </div>
+
+  <!-- Lista de autores -->
+  <ol>
+    <li *ngFor="let autor of autores">
+      {{ autor.nomeAutor }} {{ autor.sobrenomeAutor }}
+      <button (click)="excluirAutor(autor.idAutor)">Excluir</button>
+    </li>
+  </ol>
+</div>
+
+
